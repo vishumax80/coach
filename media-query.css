@@ -1,0 +1,32 @@
+@media(max-width:1500px){
+        .desc-rt {
+            margin-right: 30px;
+           
+    }
+}
+
+@media(max-width:1400px){
+
+    .hero .img-lt img {
+        height: 600px;      
+        margin-left:50px;
+        
+    }
+    .email-div input[type="text"]{
+        
+    }
+
+    .email-div button {
+
+    }
+}
+
+@media(max-width:1200px){}
+
+@media(max-width:991px){}
+
+@media(max-width:768px){}
+
+@media(max-width:480px){}
+
+@media(max-width:320px){}
