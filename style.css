@@ -1,0 +1,162 @@
+/***************
+    Basic setup
+ ***************/
+
+ *{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+   
+}
+body{
+    background: #FCFDFF;
+}
+ul{
+   
+}
+li{
+    list-style: none;
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+   
+}
+
+a{
+    Text-decoration:none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+    max-width: 1400px;   
+    margin:auto;
+  
+}
+
+/*************
+ Header section 
+ ************/
+ .hdr-sec{  
+        /* border:1px solid black; */
+       
+ }   
+.hdr{
+    /* border:1px solid blue; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    
+}
+.logo img{
+    /* border:1px solid green; */
+    width:100px;
+    margin-left: 66px;
+}
+.hdr .nav{
+    /* border: 1px solid orange;   */
+}
+.hdr .nav li{
+    padding: 30px 21px;
+    font-weight: 500;
+    font-size: 16px;
+}
+.hdr .nav li a{
+    transition: all 0.3s ease 0s;
+    color:#0c0000;
+    
+}
+.hdr .nav li a:hover{
+    color:gray;
+}
+
+/*************
+ Hero section 
+ ************/
+.hero{
+    height:700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.hero .img-lt img{
+    height:600px;
+    margin-left: -200px;
+    margin-bottom: -30px;
+    /* border:1px solid blue; */
+}
+
+.desc-rt{
+    /* border:1px solid green; */
+    height:600px;
+    background:#FFFFFF;
+    width:600px;
+}
+.desc-txt h1{
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 1.2;
+    font-family: 'Roboto', sans-serif;
+}
+
+.sub-txt p{
+    border:1px solid grey;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    line-height: 1.4; 
+    padding: 20px; 
+    font-family: 'Roboto', sans-serif; 
+    background:#f6f6f6;
+}
+.sub-txt span{
+    font-weight: 600;
+    font-size: 14px;
+    
+   
+}
+.email-div{
+    box-shadow: 1px 2px 4px;
+    position: relative;
+    margin-top: 30px;
+}
+.email-div input[type="text"]{
+    flex-grow: 1;
+    padding: 20px 36px;
+    margin: 0;
+    border-radius: 0;
+    text-transform: none;
+    letter-spacing: 0px;
+    font-size: 24px;
+    font-weight: normal;
+    border: none;
+    border:1px solid grey;
+    /* box-shadow: -5px 0px 20px 4px; */
+    
+}
+.email-div button{
+    font-weight: 600;
+    padding: 20px 36px;
+    color: #fff;
+    border: none;
+    position: absolute;
+    font-family: 'Roboto', sans-serif; 
+    height: 70px;
+    background: linear-gradient(135deg,#ff5879 0%,#ff531d 100%);
+    width: 235px;
+    font-size: 20px;
+      
+}
+/*************
+ About section 
+ ************/
+ .abt{
+    
+ }
+
+ .content{
+    background: #22262F;
+    height: 500px;
+    margin-top: -37px;
+ }
+
+
