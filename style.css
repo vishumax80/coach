@@ -29,7 +29,7 @@ a{
 }
 
 .container{
-    max-width: 1400px;   
+    max-width:1400px;   
     margin:auto;
     overflow: hidden;
 }
@@ -159,9 +159,9 @@ form.getsin::after {
     display: table;
   }
 /************* 
- About section 
+ Content section 
  ************/
- .abt{
+ .cont{
     
  }
 
@@ -173,6 +173,105 @@ form.getsin::after {
      text-align: center;
      margin-top: 20px;
  }
+
+ /************* 
+ About section 
+ ************/
+.abt{
+    height: 700px; 
+    /* border:1px solid blue;   */
+}
+
+.abt-sec{
+      /* border:1px solid orange; */
+      
+}
+.abt-sec h1{
+  text-align: center;  
+  /* border:1px solid green; */
+  margin-top: 30px;
+  font-family: 'Roboto', sans-serif; 
+  word-spacing: -3px;
+  letter-spacing: 2px;
+  font-size: 50px;
+  color: #565656;
+  font-weight: 600;
+}
+.abt-cont{
+    display: flex;
+    /* border:1px solid black; */
+}
+
+.abt-txt{
+    max-width: 700px;
+    /* border: 1px solid purple; */
+    height:300px;
+    text-align: center;
+    margin-top:50px;
+    margin-left: 50px;
+    flex-basis: 50%;
+}
+.abt-txt h2{
+    color:#565656;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.abt-txt p{
+    text-align: text;
+    color:#7C7C7C;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.3em;
+    font-weight: 300;   
+}
+
+.abt-txt button{
+    color: #565656!important;
+    letter-spacing: 1px;
+    text-transform: uppercase!important;
+    font-size: 30px;
+    font-weight: 500;
+    padding: 0.3em 1em;
+    line-height: 1.7em !important;
+    background-color: transparent;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    border: 3px solid  #565656 ;
+    border-radius: 3px;
+    margin-top: 20px;
+}
+.abt-img{
+    position: relative;
+}
+.abt-img img{
+    width:500px;
+    height: 500px;
+    position: absolute;
+    top:0;
+    left:10px;
+    
+}
+.tri {
+    
+    width:600px;
+    height:500px;
+    background: #4285F4;
+    clip-path: polygon(100% 100%,0% 100%, 100% 0%);
+  }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
  /************* 
@@ -200,12 +299,11 @@ form.getsin::after {
 }
 
 
-    .col3-ftr{
+.col3-ftr{
     width: 350px;
-    height: 400px;
-    margin: auto;
-   
-    }
+    /* height: 400px; */
+    margin: auto; 
+}
 
 .col3-ftr .dtls{
     margin-left: -57px;
