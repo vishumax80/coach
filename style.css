@@ -5,11 +5,11 @@
  *{
     margin:0;
     padding:0;
-    box-sizing: inherit;
+    box-sizing: border-box;
 }
 body{
     background: #FCFDFF;
-    box-sizing: border-box;
+   
     /* height: 100vh; */
     /* overflow: hidden; */
 }
@@ -75,7 +75,7 @@ a{
  Hero section 
  ************/
 .hero{
-    height:500px;
+    /* height:500px; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -90,9 +90,10 @@ a{
 
 .desc-rt{
     /* border:1px solid green; */
-    /* height:600px; */
+    /* height:500px; */
     background:#FFFFFF;
-    width:600px;
+    /* width:600px; */
+    /* background: pink; */
     
 }
 .desc-txt h1{
@@ -121,32 +122,31 @@ a{
     box-shadow: 1px 2px 4px;  
     margin-top: 30px; 
     /* border:1px solid blue;   */
-    /* height:200px; */
+    /* height:100px; */
     width: 100%;
 }
  form.getsin input[type="text"]{
     flex-grow: 1;
     padding: 20px 43px;
-    border-radius: 0; 
-    letter-spacing: 0px;
-    font-size: 24px;
-    font-weight: normal;
-    border: none;
-    border:1px solid grey;
-    float:left;
-    width:60%;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 60%;
+    background: #f1f1f1;
+   
 }
 form.getsin button{
-    font-weight: 600;
-    padding: 20px 36px;
-    color: #fff;
-    border: none;
-    font-family: 'Roboto', sans-serif; 
-    height: 70px;
+    float: left;
+    width: 40%;
+    padding: 10px;
     background: linear-gradient(135deg,#ff5879 0%,#ff531d 100%);
-    /* width: 235px; */
-    font-size: 20px;
-    float:left;    
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+    height: 62px;
+    
 }
 /* form.example::after {
     content: "";
@@ -163,7 +163,10 @@ form.getsin button{
  .content{
     background: #22262F; 
      height: 500px;
-   
+ }
+ .content h1{
+     text-align: center;
+     margin-top: 20px;
  }
 
 
