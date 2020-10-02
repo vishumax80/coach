@@ -255,7 +255,7 @@ form.getsin::after {
 }
 .tri {
     
-    width:600px;
+    width:500px;
     height:500px;
     background: #4285F4;
     clip-path: polygon(100% 100%,0% 100%, 100% 0%);
