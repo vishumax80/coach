@@ -172,7 +172,77 @@ form.getsin::after {
  .content h1{
      text-align: center;
      margin-top: 20px;
+    
  }
+
+/************* 
+ Service section 
+ ************/
+    .serv-sec{
+        /* height: 500px; */
+        border:1px solid transparent;
+        /* background: #22262F; */
+    }
+
+    .serv-row{
+        /* border:1px solid blue; */
+        height: 400px;
+        margin-top: 40px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width:100%;
+    }
+
+        .serv-sec h1{
+            text-align: center;
+            margin-top: 50px;
+            font-family: 'Roboto', sans-serif;
+            color:#565656;
+            font-size: 50px;
+            margin-bottom: 20px;
+        }
+        .serv-sec p{
+            text-align: center;
+            margin-top: 70px;
+            font-family: 'Roboto', sans-serif;
+            color:#524f4f;
+            line-height: 2rem;
+            font-size: 25px;
+            font-weight: 500;
+            max-width: 900px;
+            margin: auto;
+        }
+        
+    .col{
+        border:1px solid #f7f7f7;
+        width:400px;
+        height:300px;
+        box-shadow: 0px 12px 18px -18px rgba(0,0,0,0.3);
+    }
+    .col span img{
+        width:30px;
+        float: left;
+    }
+
+    .col h3{
+        color:#565656;
+        font-family: 'Roboto', sans-serif;
+        font-size: 32px;
+        font-weight: 700;
+        padding-left:50px;
+    }
+    .col p{
+        color:#565656;
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+        font-weight: 400;
+        text-align: left;
+        margin-top: 10px;
+        padding-left: 50px;  
+
+    }
+
 
  /************* 
  About section 
