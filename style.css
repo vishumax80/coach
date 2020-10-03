@@ -255,6 +255,7 @@ form.getsin::after {
 .abt{
     height: 700px; 
     /* border:1px solid blue;   */
+    margin-top: 71px;
 }
 
 .abt-sec{
@@ -282,7 +283,7 @@ form.getsin::after {
     /* border: 1px solid purple; */
     height:300px;
     text-align: center;
-    margin-top:50px;
+    margin-top: 30px;
     margin-left: 50px;
     flex-basis: 50%;
 }
@@ -322,7 +323,7 @@ form.getsin::after {
 }
 .abt-img img{
     width:500px;
-    height: 500px;
+    /* height: 500px; */
     position: absolute;
     top:0;
     left:10px;
