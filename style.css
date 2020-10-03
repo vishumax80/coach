@@ -161,7 +161,7 @@ form.getsin::after {
 /************* 
  Content section 
  ************/
- .cont{
+ /* .cont{
     
  }
 
@@ -173,7 +173,7 @@ form.getsin::after {
      text-align: center;
      margin-top: 20px;
     
- }
+ } */
 
 /************* 
  Service section 
@@ -181,7 +181,7 @@ form.getsin::after {
     .serv-sec{
         /* height: 500px; */
         border:1px solid transparent;
-        /* background: #22262F; */
+        background: #22262F;
     }
 
     .serv-row{
@@ -198,7 +198,7 @@ form.getsin::after {
             text-align: center;
             margin-top: 50px;
             font-family: 'Roboto', sans-serif;
-            color:#565656;
+            color:grey;
             font-size: 50px;
             margin-bottom: 20px;
         }
@@ -206,7 +206,7 @@ form.getsin::after {
             text-align: center;
             margin-top: 70px;
             font-family: 'Roboto', sans-serif;
-            color:#524f4f;
+            color:rgb(216, 215, 215);
             line-height: 2rem;
             font-size: 25px;
             font-weight: 500;
@@ -215,22 +215,27 @@ form.getsin::after {
         }
         
     .col{
-        border:1px solid #f7f7f7;
+        border:1px solid grey;
         width:400px;
         height:300px;
         box-shadow: 0px 12px 18px -18px rgba(0,0,0,0.3);
+        background: white;
+        border-radius: 10px;
     }
     .col span img{
         width:30px;
         float: left;
+        margin-top: 20px;
+        margin-left: 10px;
     }
 
     .col h3{
-        color:#565656;
+        color:rgb(68, 66, 66);
         font-family: 'Roboto', sans-serif;
         font-size: 32px;
         font-weight: 700;
         padding-left:50px;
+        margin-top: 20px;
     }
     .col p{
         color:#565656;
@@ -238,7 +243,7 @@ form.getsin::after {
         font-size: 20px;
         font-weight: 400;
         text-align: left;
-        margin-top: 10px;
+        margin-top: 45px;
         padding-left: 50px;  
 
     }
