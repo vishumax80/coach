@@ -1,7 +1,16 @@
+@media(min-width:1500px){
+    .email-btm{
+        visibility: hidden;
+    }
+}
+
 @media(max-width:1500px){
         .desc-rt {
             margin-right: 30px;
            
+    }
+    .email-btm{
+        visibility: hidden;
     }
 }
 
@@ -26,14 +35,191 @@
     .form.getsin button {
         padding: 10px 26px;
     }
+    .email-btm{
+        visibility: hidden;
+    }
+}
+@media(max-width:1280px){
+    .serv-row{
+        display:flex;
+        flex-direction: column;  
+    }
+    .col{
+        width:60%;
+        margin:30px 30px;
+    }
+    .email-btm{
+        visibility: hidden;
+    }
+
+}
+@media(max-width:1200px){
+    .abt-txt p{
+        font-size: 25px;
+    }
+    form.getsin input[type="text"]{
+        width: 100%;
+        text-align: center;
+    }
+    form.getsin button {
+        width:100%;
+    }
+    .email-btm{
+        visibility: hidden;
+    }
+    .abt-img img{
+        margin-right: 30px;
+    }
 }
 
-@media(max-width:1200px){}
+@media(max-width:992px){
+    .desc-rt {
+        margin-left: 0;
+       
+    }
+    .desc-txt {
+        
+        margin-top: 125px;
+    }
 
-@media(max-width:991px){}
+    .hero .img-lt img {
+        height: 400px;
+        margin-bottom: 100px;
+    }
+    /* .desc-txt {
+        margin-bottom: 60px;
+      
+    } */
+    .email-div {
+      visibility: hidden;
+    }
 
-@media(max-width:768px){}
+    .email-btm{
+        visibility: visible;
+    }
+    .abt-txt button {
+        font-size: 20px;
+    }
+    .abt-txt p {
+        font-size: 21px;
+    }
+}
 
+@media(max-width:780px){
+    .desc-txt h1 {
+        font-size: 22px;
+    }
+    .abt-cont{
+        flex-direction: column;
+     
+    }
+    .abt-img {
+        margin-top: 20px;
+        margin:auto;
+        /* margin-bottom: 50px; */
+    }
+    .ftr-cont .ftr-col3{
+        flex-direction: column;
+    }
+    .col{
+       
+        text-align: center;
+    }
+    .col span img {
+      float: none;   
+    }
+    .col h3 {
+       
+        padding:0;
+       
+    }
+    .col p {
+      
+        text-align:center;
+        margin-top: 17px;
+        padding:auto;
+        margin-right: 20px; 
+    }
+
+}
+
+@media only screen and (max-width: 620px) {
+
+    .logo{
+    /* float:left;
+    display: block;
+    padding:20px 40px; */
+}
+    .logo img{
+        border:1px solid green;
+        width:50px;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+        margin:0;
+    }
+        /* .logo .menu-icon{
+            padding: 25px 20px;
+            position: relative;
+            bottom: 12px;
+            float: right;
+            cursor: pointer;
+            
+        } */
+
+    /* .logo .menu-icon .nav-icon{
+        background: black;
+        display: block;
+        height: 2px;
+        width:18px;
+        position: relative;
+        transition: background .2s ease-out;
+    } */
+
+    /* .logo .menu-icon .nav-icon:before{
+        background: #000;
+        content:"";
+        display: block;
+        height: 100%;
+        position: absolute;
+        width:100%;
+        top:5px;
+        transition: all .2s ease-out;
+    }
+    .logo .menu-icon .nav-icon:after{
+        background: #000;
+        content:"";
+        display: block;
+        height: 100%;
+        position: absolute;
+        width:100%;
+        top:-5px;
+        transition: all .2s ease-out;
+    } */
+
+    .logo .menu-btn{
+        display: none;
+    }
+
+  
+    .hdr {
+   
+      display: block;
+    }
+
+    .hdr .nav ul li:hover{
+        background: #ddd;
+        
+    }
+    
+    .hdr .nav  li{
+        margin:0;
+        padding: 0;
+        display: block;
+        /* outline:1px solid red; */
+        padding:10px;
+    }
+
+   
+
+}
 @media(max-width:480px){}
 
 @media(max-width:320px){}
