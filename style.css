@@ -39,7 +39,8 @@ a{
  ************/
  .hdr-sec{  
         /* border:1px solid black; */
-       
+       background:grey;
+      
  }   
 .hdr{
     /* border:1px solid blue; */
@@ -47,6 +48,7 @@ a{
     justify-content: space-between;
     align-items: center;
     height: auto;
+    position: relative;
     
 }
 .logo img{
@@ -57,6 +59,7 @@ a{
 
 .hdr .nav{
     /* border: 1px solid orange;   */
+    
 }
 .hdr .nav li{
     padding: 30px 21px;
@@ -70,6 +73,23 @@ a{
 }
 .hdr .nav li a:hover{
     color:gray;
+}
+
+.toggle-button{
+    position:absolute;
+    top:.75rem;
+    right:1rem;
+    display:none;
+    flex-direction: column;
+    justify-content: space-between;
+    width:30px;
+    height:21px;
+}
+.toggle-button .bar{
+    height:3px;
+    width:100%;
+    background: #000;
+    border-radius: 10px;
 }
 
 /*************
