@@ -39,7 +39,7 @@ a{
  ************/
  .hdr-sec{  
         /* border:1px solid black; */
-       background:grey;
+       /* background:grey; */
       
  }   
 .hdr{
@@ -60,6 +60,9 @@ a{
 .hdr .nav{
     /* border: 1px solid orange;   */
     
+}
+ul {
+    width: 100%;
 }
 .hdr .nav li{
     padding: 30px 21px;
@@ -114,7 +117,7 @@ a{
 .desc-rt{
     /* border:1px solid green; */
     /* height:auto; */
-    background:#FFFFFF;
+    /* background:#FFFFFF; */
     width:60%;
     margin-left: 100px;   
 }
@@ -228,6 +231,7 @@ form.getsin::after {
         justify-content: space-evenly;
         align-items: center;
         width:100%;
+        margin-bottom: 90px;
     }
 
         .serv-sec h1{
@@ -253,7 +257,7 @@ form.getsin::after {
     .col{
         border:1px solid grey;
         width:400px;
-        height:300px;
+        /* height:300px; */
         box-shadow: 0px 12px 18px -18px rgba(0,0,0,0.3);
         background: white;
         border-radius: 10px;
@@ -327,6 +331,7 @@ form.getsin::after {
     color:#565656;
     font-size: 40px;
     margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
 }
 .abt-txt p{
     text-align: text;

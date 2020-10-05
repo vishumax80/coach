@@ -74,7 +74,7 @@
 
 @media(max-width:992px){
     .desc-rt {
-        margin-left: 0;
+      
        
     }
     .desc-txt {
@@ -151,7 +151,7 @@
     padding:20px 40px; */
 }
     .logo img{
-        border:1px solid green;
+      
         width:50px;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
         margin:0;
     }
@@ -174,10 +174,10 @@
     .hdr .nav  li{
         margin:0;
         padding: 0;
-        display: block;
-        /* outline:1px solid red; */
+        display: block;  
         padding:10px;
-        /* text-align: center; */
+        text-align: center;
+        
     }
 
     .toggle-button{
@@ -190,12 +190,74 @@
 
     .nav.active{
         display: flex;
+        transition: all .3s ease-in-out;
        
-    }
-
-   
+    }  
 
 }
-@media(max-width:480px){}
 
-@media(max-width:320px){}
+@media only screen and (max-width: 600px){
+    .sub-txt p {
+       visibility: hidden;
+    }
+    .hero {
+        flex-direction: column;
+    }
+    .hero .img-lt img {
+        margin:auto;
+        margin-top: 395px;
+    }
+    .desc-rt {
+        /* margin-left: 0; */
+        /* height: 80px; */
+        margin-top: -110px;
+    }
+}
+@media(max-width:480px){
+    .hero .img-lt img {
+       height: 250px;
+    }
+    .col h3 {
+        font-size: 22px;
+    }
+    .col p {
+        font-size: 15px;
+        margin-right: 45px;
+        line-height: 2;
+    }
+    .abt-sec h1 {
+        font-size: 35px;
+    }
+    .abt-txt h2 {
+        font-size: 40px;
+       
+    }
+    .abt-txt p {
+        font-size: 21px;
+        margin-right: 25px;
+    }
+    .abt-txt button {
+        font-size: 20px;
+        margin-right: 35px;
+    }
+    .tri {
+        width: 300px;
+        height: 300px;
+        /* margin-left: 70px; */
+    }
+    .abt-img img {
+        margin-left: 100px;
+        width: 200px;
+    }
+    .abt-cont {
+     
+        margin-bottom: 200px;
+    }
+}
+
+@media(max-width:320px){
+
+
+
+
+}
