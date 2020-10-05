@@ -130,6 +130,7 @@ ul {
     font-size: 46px;
     line-height: 1.2;
     font-family: 'Roboto', sans-serif;
+    color:#333333;
 }
 
 .sub-txt{
@@ -160,10 +161,10 @@ ul {
    
 }
 
-.email-btm{
+/* .email-btm{
     border:1px solid black;
     margin-bottom:20px;
-}
+} */
  form.getsin input[type="text"]{
     flex-grow: 1;
     padding: 20px 43px;
@@ -220,10 +221,12 @@ form.getsin::after {
     .serv-sec{
         /* height: 500px; */
         border:1px solid transparent;
-        background: #22262F;
+        background: linear-gradient(135deg, #3c33b2 0%,#222 100%);
+        /* background: linear-gradient(135deg, #9D50BB 0%,#6E48AA 100%); */
+        /* margin-top: -1001px; */
     }
 
-    .serv-row{
+    .serv-row{  
         /* border:1px solid blue; */
         height: auto;
         margin-top: 40px;
@@ -283,9 +286,9 @@ form.getsin::after {
         font-size: 20px;
         font-weight: 400;
         text-align: left;
-        margin-top: 45px;
-        padding-left: 50px;  
-
+        margin-top: 6px;
+        padding-left: 50px;
+        margin-bottom: 15px;
     }
 
 
@@ -295,12 +298,12 @@ form.getsin::after {
 .abt{
     height: auto;
     /* border:1px solid blue;   */
-    margin-top: 71px;
+    /* margin-top: 71px; */
 }
 
 .abt-sec{
       /* border:1px solid orange; */
-      
+      width:100%;
 }
 .abt-sec h1{
   text-align: center;  
@@ -309,7 +312,7 @@ form.getsin::after {
   font-family: 'Roboto', sans-serif; 
   word-spacing: -3px;
   letter-spacing: 2px;
-  font-size: 50px;
+  font-size: 45px;
   color: #565656;
   font-weight: 600;
 }
@@ -319,7 +322,7 @@ form.getsin::after {
 }
 
 .abt-txt{
-    max-width: 700px;
+    /* max-width: 800px; */
     /* border: 1px solid purple; */
     height:300px;
     text-align: center;
@@ -335,11 +338,11 @@ form.getsin::after {
 }
 .abt-txt p{
     text-align: text;
-    color:#7C7C7C;
-    font-size: 30px;
+    color:#4d4949;
+    font-size: 24px;
     font-family: 'Roboto', sans-serif;
     line-height: 1em;
-    font-weight: 300;   
+    font-weight: 400;   
 }
 
 .abt-txt button{
@@ -373,9 +376,9 @@ form.getsin::after {
 }
 .tri {
     
-    width:500px;
+    width: 585px;
     height:500px;
-    background: #4285F4;
+    background: linear-gradient(135deg, #3c33b2 0%,#222 100%);
     clip-path: polygon(100% 100%,0% 100%, 100% 0%);
   }
 
@@ -401,7 +404,7 @@ form.getsin::after {
     display: flex; 
     justify-content: space-between;
     align-items: center;
-    margin: 20px 100px 20px 100px;
+    margin: 20px 330px 20px 100px;
    
 }
 
@@ -485,7 +488,7 @@ form.getsin::after {
 
 }
 .col3-ftr .social-lnk {
-    height:450px;
+    height:400px;
     width:400px;
     background:-webkit-gradient(linear, 50% 20%, 80% 21%, from(#080D0B), to(#2F2F2F));
     margin-right: 20px;
@@ -501,7 +504,7 @@ margin-top: 10px;
 }
 .social-lnk .lnk{
     height: 60px;
-    margin-top: 11px;
+    margin-top: 16px;
     width: 350px;
     margin-left: 25px;
     color:white;
@@ -571,7 +574,7 @@ margin-right: 15px;
     font-family: 'Roboto', sans-serif;
     letter-spacing: 1px;    
     margin: auto;
-    height: 100px;   
+    /* height: 100px;    */
 }
 .end-ftr p span{
     color:white; 
