@@ -70,6 +70,11 @@
     .abt-img img{
         /* margin-right: 30px; */
     }
+
+    .ftr-col3 {
+       
+        margin: 30px;
+
 }
 
 @media(max-width:992px){
@@ -103,6 +108,19 @@
     .abt-txt p {
         font-size: 21px;
     }
+    .ftr-col3 .one {
+        /* margin: 20px 20px; */
+    }
+    .ftr-col3{
+        margin:0 20px;
+    }
+}
+
+@media(max-width:930px){
+    /* .ftr-col3{ 
+        flex-direction: column;
+      
+    } */
 }
 
 @media(max-width:780px){
@@ -139,6 +157,19 @@
         margin-top: 17px;
         padding:auto;
         margin-right: 20px; 
+    }
+    .ftr-col3 .one {
+        margin: 20px 20px;
+        text-align: center;
+    }
+    .ftr-col3 .two {
+        margin-right: -95px;
+        width: 200px;
+        margin: 20px;
+    }
+    .ftr-cont {
+       
+        margin-top: -70px;
     }
 
 }
