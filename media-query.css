@@ -88,7 +88,7 @@
         margin: 30px;
 
 }
-.col3-ftr.active {
+    .col3-ftr.active {
     margin-right: 90px;
 }
 }
@@ -208,10 +208,33 @@
     }
     .ftr-cont {
        
-        margin-top: -70px;
+        /* margin-top: -70px; */
+    }
+    .ftr-col3 .col-wrap {
+        /* width: 100%; */
+        flex-direction: column;
+        align-items: center;
+}
+
+.social-lnk .lnk {
+    /* width: 70%; */
+    /*   */
+        }
+
     }
 
-}
+    @media only screen and (max-width: 680px){
+        .col3-ftr.active {
+            width: 100%;
+            margin: auto;
+    }
+    }
+    @media only screen and (max-width: 640px){
+        .col3-ftr.active {
+            width: 70%;
+            margin: auto;
+    }
+    }
 
 @media only screen and (max-width: 620px) {
 
@@ -259,13 +282,15 @@
     }
 
     .nav.active{
-        display: flex;
-        
+        display: flex; 
        
     }  
+    .col3-ftr.active {
+        width: 55%;
+        margin:auto;
 
 }
-
+}
 @media only screen and (max-width: 600px){
     .sub-txt p {
        visibility: hidden;
@@ -282,6 +307,16 @@
         /* height: 80px; */
         margin-top: -110px;
     }
+}
+
+@media(max-width:550px){
+    .col3-ftr.active {
+        margin-left: 96px;
+    }
+    .social-lnk .lnk {
+        width: auto;
+    }
+
 }
 @media(max-width:480px){
     .hero .img-lt img {
@@ -323,8 +358,55 @@
      
         margin-bottom: 200px;
     }
-}
+    .ftr-col3 .col-wrap {
+        margin-left: -76px;
+    }
+    .col3-ftr.active {
+        margin-left: 65px;
+    }
+    .social-lnk .lnk {
+        width: auto;
+    }
+    .social-lnk .head h3 {
+        font-size: 22px;
+    }
+    
+    .social-lnk .lnk i {
+        font-size: 20px;
+    }
+    .cntr-txt p{
+        font-size: 12px;
+        /* margin: 0 20px; */
+        
+    }
+    
+    }
+    @media(max-width:387px){
+        .col3-ftr.active {
+            margin-left: 22px;
+        }
+        .ftr-col3 .one {
+            text-align: left;
+            margin-left: -100px;
+        }
+        .ftr-col3 .two {
 
+            margin-left: -249px;
+        }
+        .social-lnk .head h3 {
+            font-size: 18px;
+        }
+        
+        .social-lnk .lnk i {
+            font-size: 20px;
+        }
+        .social-lnk .lnk {
+            width: 80%;
+        }
+        .col3-ftr.active {
+            margin-left: 0px;
+        }
+    }
 @media(max-width:320px){
 
 

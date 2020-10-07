@@ -10,7 +10,6 @@
 body{
     background: #FCFDFF;
     box-sizing: border-box;
-    /* height: 100vh; */
     /* overflow: hidden; */
 }
 ul{
@@ -32,6 +31,7 @@ a{
     max-width:1400px;   
     margin:auto;
     overflow: hidden;
+    /* border: 2px solid blue; */
 }
 
 /*************
@@ -396,6 +396,7 @@ form.getsin::after {
     background: #121212;
     /* padding: 100px 0 30px; */
     position: relative;  
+    border: 1px solid orange;
 }
 .ftr-cont{
    border:1px solid transparent;
@@ -526,8 +527,10 @@ form.getsin::after {
     margin-bottom: 20px;
 }
 .social-lnk .lnk-grp{
-margin-top: 10px;
+ margin-top: 10px;
+ /* margin: auto; */
 }
+
 .social-lnk .lnk{
     height: 60px;
     margin-top: 16px;
@@ -606,7 +609,7 @@ margin-right: 15px;
 
 .cntr-txt p{
    
-    margin: 0 20px;
+    /* margin: 0 20px; */
     
 }
 
