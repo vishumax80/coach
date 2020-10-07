@@ -1,7 +1,7 @@
 @media(min-width:1500px){
-    /* .email-btm{
+    .email-btm{
         visibility: hidden;
-    } */
+    }
 }
 
 @media(max-width:1500px){
@@ -9,9 +9,9 @@
             margin-right: 30px;
            
     }
-    /* .email-btm{
+    .email-btm{
         visibility: hidden;
-    } */
+    }
 }
 
 @media(max-width:1400px){
@@ -32,9 +32,9 @@
     .form.getsin button {
         padding: 10px 26px;
     }
-    /* .email-btm{
+    .email-btm{
         visibility: hidden;
-    } */
+    }
 
     .col3-ftr.active {
         margin-right: 90px;
@@ -53,9 +53,9 @@
         width:60%;
         margin:30px 30px;
     }
-    /* .email-btm{
+    .email-btm{
         visibility: hidden;
-    } */
+    }
     .col3-ftr.active {
         margin-right: 90px;
     }
@@ -76,9 +76,9 @@
     form.getsin button {
         width:100%;
     }
-    /* .email-btm{
+    .email-btm{
         visibility: hidden;
-    } */
+    }
     .abt-img img{
         /* margin-right: 30px; */
     }
@@ -108,6 +108,9 @@
         
         margin-top: 125px;
     }
+    .serv-row {
+        flex-direction: column;
+    }
 
     .hero .img-lt img {
         height: 400px;
@@ -117,12 +120,16 @@
         margin-bottom: 60px;
       
     } */
-    /* .email-div {
+    .email-div {
       visibility: hidden;
-    } */
+      display: none;
+    }
 
     .email-btm{
         visibility: visible;
+         margin: 50px auto;
+      width: 70%;
+     
     }
     .abt-txt button {
         font-size: 20px;
@@ -294,13 +301,14 @@
 @media only screen and (max-width: 600px){
     .sub-txt p {
        visibility: hidden;
+       display: none;
     }
     .hero {
         flex-direction: column;
     }
     .hero .img-lt img {
         margin:auto;
-        margin-top: 395px;
+        /* margin-top: 395px; */
     }
     .desc-rt {
         /* margin-left: 0; */
@@ -356,7 +364,7 @@
     }
     .abt-cont {
      
-        margin-bottom: 200px;
+        /* margin-bottom: 200px; */
     }
     .ftr-col3 .col-wrap {
         margin-left: -76px;
@@ -379,8 +387,27 @@
         /* margin: 0 20px; */
         
     }
+    .col3-ftr .dtls {
+        margin-left: -57px;
+        width: 100%;
+        font-size: 15px;
+    }
     
     }
+
+    @media(max-width:430px){
+        .col {
+            width: 90%;
+            margin: 30px 30px;
+        }
+        .serv-sec h1 {
+         
+            font-size: 32px;
+           
+        }
+
+    }
+
     @media(max-width:387px){
         .col3-ftr.active {
             margin-left: 22px;
@@ -409,7 +436,28 @@
     }
 @media(max-width:320px){
 
+    col h3 {
+        font-size: 18px;
+    }
+    .col p {
+        font-size: 12px;
+      
+    }
+    .abt-sec h1 {
+        font-size: 24px;
+    }
+    .abt-txt h2 {
+        font-size: 27px;
+    }
 
+    .abt-txt p {
+        font-size: 13px;
+        margin-right: 25px;
+    }
+    .abt-img img {
+        width: 100%;
+        height: 100%;
+    }
 
 
 }

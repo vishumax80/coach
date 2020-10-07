@@ -116,7 +116,7 @@ ul {
 
 .desc-rt{
     /* border:1px solid green; */
-    /* height:auto; */
+    height:auto;
     /* background:#FFFFFF; */
     width:60%;
     margin-left: 100px;   
@@ -158,13 +158,15 @@ ul {
     /* border:1px solid blue;   */
     /* height:100px; */
     width: 100%;
+    margin-bottom: 20px;
    
 }
 
-/* .email-btm{
+.email-btm{
     border:1px solid black;
-    margin-bottom:20px;
-} */
+   
+}
+
  form.getsin input[type="text"]{
     flex-grow: 1;
     padding: 20px 43px;
@@ -599,7 +601,7 @@ margin-right: 15px;
     color:white;
     text-align: center;  
     font-family: 'Roboto', sans-serif;
-    letter-spacing: 1px;    
+    /* letter-spacing: 1px;     */
     margin: auto;
     /* height: 100px;    */
 }
