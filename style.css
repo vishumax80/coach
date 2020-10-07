@@ -401,6 +401,7 @@ form.getsin::after {
    border:1px solid transparent;
    /* margin-top: 20px; */
   display: flex;
+  justify-content: space-between;
 }
 
 .ftr-col3{    
@@ -436,11 +437,11 @@ form.getsin::after {
 
 .ftr-col3 .col-wrap{
    
-    width:600px;
+    width:700px;
    display: flex;
    justify-content: space-around;
    /* border: 1px solid white; */
-   margin-left: 130px;
+   /* margin-left: 130px; */
 }
 .ftr-col3 .one {
     /* margin-left:80px; */
